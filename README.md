@@ -13,4 +13,8 @@ O FFMPEG gera 3 executáveis:
 Versões antigas do FFMPEG contavam com o executável **ffserver** cujas funcionalidades foram incorporadas ao **ffmpeg**
 
 #### 1.2 Usando o ffmpeg
-O **ffmpeg** tem um 
+O **ffmpeg** o uso do ffmpeg é, teoricamente, muito simples. Basicamente:
+
+```ps1
+ffmpeg -i [fluxo de entrada] [opções de transcodificação] [fluxo de saída] 
+```
